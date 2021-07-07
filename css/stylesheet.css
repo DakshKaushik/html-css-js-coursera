@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+    font-size: 1.75em;
+    padding:50px;
+}
+section{
+    border:1px solid black;
+    margin: 20px;
+    background-color: honeydew;
+      
+}
+
+@media (min-width: 992px) {
+    .cols-ld-1, .cols-ld-2, .cols-ld-3, .cols-ld-4, .cols-ld-5, .cols-ld-6, .cols-ld-7,
+     .cols-ld-8, .cols-ld-9, .cols-ld-10, .cols-ld-11, .cols-ld-12 {
+      float: left;
+    }
+    .cols-ld-1 {
+      width: 8.33%;
+    }
+    .cols-ld-2 {
+      width: 16.66%;
+    }
+    .cols-ld-3 {
+      width: 25%;
+    }
+    .cols-ld-4 {
+      width: 33.33%;
+      
+    }
+    .cols-ld-5 {
+      width: 41.66%;
+    }
+    .cols-ld-6 {
+      width: 50%;
+    }
+    .cols-ld-7 {
+      width: 58.33%;
+    }
+    .cols-ld-8 {
+      width: 66.66%;
+    }
+    .cols-ld-9 {
+      width: 74.99%;
+    }
+    .cols-ld-10 {
+      width: 83.33%;
+    }
+    .cols-ld-11 {
+      width: 91.66%;
+    }
+    .cols-ld-12 {
+      width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .cols-md-1, .cols-md-2, .cols-md-3, .cols-md-4, .cols-md-5, .cols-md-6, .cols-md-7,
+     .cols-md-8, .cols-md-9, .cols-md-10, .cols-md-11, .cols-md-12 {
+      float: left;
+      
+      
+    }
+    .cols-md-1 {
+      width: 8.33%;
+    }
+    .cols-md-2 {
+      width: 16.66%;
+    }
+    .cols-md-3 {
+      width: 25%;
+    }
+    .cols-md-4 {
+      width: 33.33%;
+    }
+    .cols-md-5 {
+      width: 41.66%;
+    }
+    .cols-md-6 {
+      width: 50%;
+      
+    }
+    .cols-md-7 {
+      width: 58.33%;
+    }
+    .cols-md-8 {
+      width: 66.66%;
+    }
+    .cols-md-9 {
+      width: 74.99%;
+    }
+    .cols-md-10 {
+      width: 83.33%;
+    }
+    .cols-md-11 {
+      width: 91.66%;
+    }
+    .cols-md-12 {
+      width: 100%;
+    }
+  }
+@media(max-width:767px){
+    .cols-sm-1{
+        float: left;
+        width: 100%;
+        
+    }
+}
+
+body{
+    background-color:gainsboro;
+    
+}
+
+
+.text{
+    
+    height: auto;
+    color: black;
+    padding: 40px;
+   
+}
+h2{
+    text-align: center;
+    background-color:gold;
+    width:90px;
+    float: right;
+    border: 1px solid black;
+    margin-top: 0px;
+}
